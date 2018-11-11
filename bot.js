@@ -10,4 +10,4 @@ var channel = "509708477854384138";//ايدي الروم
 })
 
 
-client.login(process.env.BOT_TOKEN15);
+client.login(process.env.BOT_TOKEN10);

@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
-const client9 = new Discord.Client();
+const client1 2 = new Discord.Client();
 
-client9.on('ready', async() => {
+client1 2.on('ready', async() => {
 var server = "509370079046270977"; // ايدي السررفر
 var channel = "509708477854384138";//ايدي الروم
     setInterval(()=>{
@@ -10,4 +10,4 @@ var channel = "509708477854384138";//ايدي الروم
 })
 
 
-client9.login(process.env.BOT_TOKEN9);
+client1 2.login(process.env.BOT_TOKEN1 2);

@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
-const client1 2 = new Discord.Client();
+const client5 = new Discord.Client();
 
-client1 2.on('ready', async() => {
+client5.on('ready', async() => {
 var server = "509370079046270977"; // ايدي السررفر
 var channel = "509708477854384138";//ايدي الروم
     setInterval(()=>{
-    client9.guilds.get(server).channels.get(channel).send('**- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM **')
+    client5.guilds.get(server).channels.get(channel).send('**- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM **')
     },305);
 })
 
 
-client1 2.login(process.env.BOT_TOKEN1 2);
+client5.login(process.env.BOT_TOKEN5);

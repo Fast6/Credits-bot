@@ -37,7 +37,43 @@ var channel = "509708477854384138";//ايدي الروم
     client4.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
     },305);
 })
+client5.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511579498991583252";//ايدي الروم
+    setInterval(()=>{
+    client5.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client6.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511579498991583252";//ايدي الروم
+    setInterval(()=>{
+    client6.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client7.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511579498991583252";//ايدي الروم
+    setInterval(()=>{
+    client7.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client8.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511579498991583252";//ايدي الروم
+    setInterval(()=>{
+    client8.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
 client4.login(process.env.BOT_TOKEN4);
+client5.login(process.env.BOT_TOKEN5);
+client6.login(process.env.BOT_TOKEN6);
+client7.login(process.env.BOT_TOKEN7);
+client8.login(process.env.BOT_TOKEN8);
+
+
+

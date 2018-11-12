@@ -8,6 +8,16 @@ const client6 = new Discord.Client();
 const client7 = new Discord.Client();
 const client8 = new Discord.Client();
 const client9 = new Discord.Client();
+const client10 = new Discord.Client();
+const client11 = new Discord.Client();
+const client12 = new Discord.Client();
+const client13 = new Discord.Client();
+const client14 = new Discord.Client();
+const client15 = new Discord.Client();
+
+
+
+
 
 client.on('ready', async() => {
 var server = "509370079046270977"; // ايدي السررفر

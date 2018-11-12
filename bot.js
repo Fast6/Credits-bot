@@ -65,7 +65,55 @@ var channel = "511579498991583252";//ايدي الروم
     client8.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
     },305);
 })
-
+client9.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511597873222123521";//ايدي الروم
+    setInterval(()=>{
+    client9.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client10.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511597873222123521";//ايدي الروم
+    setInterval(()=>{
+    client10.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client11.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511597873222123521";//ايدي الروم
+    setInterval(()=>{
+    client11.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client12.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511597873222123521";//ايدي الروم
+    setInterval(()=>{
+    client12.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client13.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511605121344602113";//ايدي الروم
+    setInterval(()=>{
+    client13.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client14.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511605121344602113";//ايدي الروم
+    setInterval(()=>{
+    client14.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
+client15.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511605121344602113";//ايدي الروم
+    setInterval(()=>{
+    client15.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
@@ -74,6 +122,20 @@ client5.login(process.env.BOT_TOKEN5);
 client6.login(process.env.BOT_TOKEN6);
 client7.login(process.env.BOT_TOKEN7);
 client8.login(process.env.BOT_TOKEN8);
+client9.login(process.env.BOT_TOKEN9);
+client10.login(process.env.BOT_TOKEN10);
+client11.login(process.env.BOT_TOKEN11);
+client12.login(process.env.BOT_TOKEN12);
+client13.login(process.env.BOT_TOKEN13);
+client14.login(process.env.BOT_TOKEN14);
+client15.login(process.env.BOT_TOKEN15);
+
+
+
+
+
+
+
 
 
 

@@ -15,6 +15,7 @@ const client13 = new Discord.Client();
 const client14 = new Discord.Client();
 const client15 = new Discord.Client();
 const client16 = new Discord.Client();
+const client100 = new Discord.Client();
 
 
 
@@ -132,6 +133,65 @@ var channel = "511605121344602113";//ايدي الروم
     client16.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
     },305);
 })
+
+var prefix = "l"
+
+
+client100.on('message', function(message) {
+    const myID = "462038057529507841";
+    let args = message.content.split(" ").slice(1).join(" ");
+    if(message.content.startsWith(prefix + "sn")) {
+                if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        client100.user.setUsername(args);
+        message.channel.send('**SetName,Done!**').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "s")) {
+                if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        client100.user.setGame(args , 'https://twitch.tv/6xlez1');
+        message.channel.send('**Streaming,Done!🎶**').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "p")) {
+                        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        client.user.setGame(args);
+        message.channel.send('**Playing,Done!🎶**').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "l")) {
+                        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        client100.user.setActivity(args, {type:'LISTENING'});
+        message.channel.send('**Listening,Done!🎶**').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "w")) {
+                        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        client100.user.setActivity(args, {type:'WATCHING'});
+        message.channel.send('**Watching,Done!🎶**').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "setavatar")) {
+                        if(message.author.id !== myID) return;
+        client100.user.setAvatar(args);
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+                if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    }
+});
+
+client.login(process.env.BOT_TOKEN);
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
@@ -148,6 +208,7 @@ client13.login(process.env.BOT_TOKEN13);
 client14.login(process.env.BOT_TOKEN14);
 client15.login(process.env.BOT_TOKEN15);
 client16.login(process.env.BOT_TOKEN16);
+client100.login(process.env.BOT_TOKEN100);
 
 
 

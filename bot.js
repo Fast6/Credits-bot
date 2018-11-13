@@ -14,6 +14,7 @@ const client12 = new Discord.Client();
 const client13 = new Discord.Client();
 const client14 = new Discord.Client();
 const client15 = new Discord.Client();
+const client16 = new Discord.Client();
 
 
 
@@ -124,6 +125,13 @@ var channel = "511605121344602113";//ايدي الروم
     client15.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
     },305);
 })
+client16.on('ready', async() => {
+var server = "509370079046270977"; // ايدي السررفر
+var channel = "511605121344602113";//ايدي الروم
+    setInterval(()=>{
+    client16.guilds.get(server).channels.get(channel).send('- SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM - SoM ')
+    },305);
+})
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
@@ -139,6 +147,7 @@ client12.login(process.env.BOT_TOKEN12);
 client13.login(process.env.BOT_TOKEN13);
 client14.login(process.env.BOT_TOKEN14);
 client15.login(process.env.BOT_TOKEN15);
+client16.login(process.env.BOT_TOKEN16);
 
 
 

@@ -143,7 +143,7 @@ client100.on('message', function(message) {
     if(message.content.startsWith(prefix + "sn")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
-        client.user.setUsername(args);
+        client100.user.setUsername(args);
         message.channel.send('SetName,Done!').then(msg => {
            msg.delete(5000);
           message.delete(5000);
@@ -193,6 +193,7 @@ Twitch is the world's leading video platform and community for gamers.
                 if(!args) return message.reply('اكتب الحالة اللي تريدها.');
            msg.delete(5000);
           message.del
+
 client.login(process.env.BOT_TOKEN);
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
@@ -210,7 +211,7 @@ client13.login(process.env.BOT_TOKEN13);
 client14.login(process.env.BOT_TOKEN14);
 client15.login(process.env.BOT_TOKEN15);
 client16.login(process.env.BOT_TOKEN16);
-client100ogin(process.env.BOT_TOKEN100
+client100.login(process.env.BOT_TOKEN100);
 
 
 

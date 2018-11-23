@@ -44,7 +44,6 @@ var channel = "515230042536804353";//ايدي الروم
     },305);
 
 client.login(process.env.BOT_TOKEN);
-client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
 client4.login(process.env.BOT_TOKEN4);

@@ -5,44 +5,41 @@ const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
 
-
-
-
 client.on('ready', async() => {
 var server = "515229161804267520"; // ايدي السررفر
 var channel = "515230042536804353";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send(' -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee')
+    client5.guilds.get(server).channels.get(channel).send('** Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz**')
     },305);
 })
 client2.on('ready', async() => {
 var server = "515229161804267520"; // ايدي السررفر
 var channel = "515230042536804353";//ايدي الروم
     setInterval(()=>{
-    client2.guilds.get(server).channels.get(channel).send(' -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee')
+    client2.guilds.get(server).channels.get(channel).send('** Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz**')
     },305);
 })
 client3.on('ready', async() => {
 var server = "515229161804267520"; // ايدي السررفر
 var channel = "515230042536804353";//ايدي الروم
     setInterval(()=>{
-    client3.guilds.get(server).channels.get(channel).send(' -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee')
+    client3.guilds.get(server).channels.get(channel).send('** Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz**')
     },305);
 })
 client4.on('ready', async() => {
 var server = "515229161804267520"; // ايدي السررفر
 var channel = "515230042536804353";//ايدي الروم
     setInterval(()=>{
-    client4.guilds.get(server).channels.get(channel).send(' -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee')
+    client4.guilds.get(server).channels.get(channel).send('** Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz**')
     },305);
 })
 client5.on('ready', async() => {
 var server = "515229161804267520"; // ايدي السررفر
 var channel = "515230042536804353";//ايدي الروم
     setInterval(()=>{
-    client5.guilds.get(server).channels.get(channel).send(' -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee -Mee')
+    client5.guilds.get(server).channels.get(channel).send('** Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz Azoz**')
     },305);
-
+})
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
